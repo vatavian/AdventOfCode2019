@@ -28,7 +28,7 @@ class IntcodeMachine
     @pc = 0
     @relative_base = 0
     @program = []
-    @debug = true
+    @debug = false
   end
 
   def param_val(param_modes, param_index)
